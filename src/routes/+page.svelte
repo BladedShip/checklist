@@ -1,5 +1,7 @@
 <script>
-    import AddTodoSection from "../lib/components/todos/AddTodoSection.svelte";
+    import AddTodoSection from "../lib/components/todos/AddTodo.svelte";
+    import Todos from "../lib/components/todos/Todos.svelte";
+    import Section from "../lib/components/progress/Section.svelte";
 </script>
 
 <div class="bg-olive-one selection:bg-green-two min-h-screen p-0 md:px-8 md:py-24">
@@ -9,6 +11,8 @@
 		<h1 class="text-2xl font-bold text-gray-three">Dashboard</h1>
 		<div class="mt-10" >
             <AddTodoSection />
+            <Todos />
+            <Section />
         </div>
 	</main>
 </div>
